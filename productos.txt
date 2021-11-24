@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Parlante Pionner Triaxial",
+      "price": 65000,
+      "pictureurl":"https://pioneer-latin.com/wp-content/uploads/2019/07/ts-f1634r_top-600x600.jpg",
+      "id": 1
+    },
+    {
+      "title": "Parlante JBL Triaxial",
+      "price": 55000,
+      "pictureurl":"https://tecnocar.cl/image/cache/catalog/product/%20PARLANTES/JBL/GTO-629%20P-700x700.jpg",
+      "id": 2
+    },
+    {
+      "title": "Subwoofer Pionner",
+      "price": 100000,
+      "pictureurl":"https://http2.mlstatic.com/D_840631-MLM46093648703_052021-O.jpg",
+      "id": 3
+    }
+  ]
