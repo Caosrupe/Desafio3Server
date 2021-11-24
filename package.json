@@ -1,0 +1,25 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contenedor.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^17.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caosrupe/Desafio3Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caosrupe/Desafio3Server/issues"
+  },
+  "homepage": "https://github.com/Caosrupe/Desafio3Server#readme"
+}
