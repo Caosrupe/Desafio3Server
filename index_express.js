@@ -1,13 +1,12 @@
 const express = require('express')
 const app = express()
-
 const Contenedor = require('./contenedor')
 const productos = new Contenedor('./productos.txt')
 
 app.get('/', (req, res) => {
     console.log("etapa1")
     res.send('<h1 style="color:blue;">Desafio #3 Servidor con Express</h1>')
-    
+
 })
 
 app.get('/productos', async (req, res) => {
@@ -17,8 +16,7 @@ app.get('/productos', async (req, res) => {
 
 app.get('/productosRandom', async (req, res) => {
     const arrayContenedor = await productos.getAll()
-
-    const min = 1 
+    const min = 1
     const max = arrayContenedor.length + 1
     const num = Math.floor(Math.random() * (max - min)) + min
 
