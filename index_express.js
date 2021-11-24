@@ -28,7 +28,7 @@ app.get('/productosRandom', async (req, res) => {
 })
 
 
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 
 const server = app.listen(PORT, () => {
     console.log(`Server escuchando en puerto ${server.address().port}`)
